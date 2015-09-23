@@ -6,6 +6,8 @@ docker instructions
 -------------------
 
 ### how to build
+`bower install`
+
 `docker build -t ericenns/hivtrace-web .`
 
 ### how to download and install
@@ -19,6 +21,9 @@ non-docker instructions
 
 ### System Dependencies
 HIV-Trace Web requires that (HIV-Trace) be installed.
+
+### Install js dependencies
+`bower install`
 
 ### Install using pip
 `pip install flask`
